@@ -1,8 +1,12 @@
 # Workshop 10 · Final Mixture-of-Experts Architecture and Orchestration Package
 
-Milk-Almond · Workshop decision draft v0.1
+Milk-Almond · Reviewed Workshop 10 package
 
 The proposed system gives a manager one reviewable answer to a specific question about an emerging technology in their organization. All seven specialists see the same evidence and work independently. A synthesizer drafts a recommendation, and a named human reviewer records the decision. Lab 11 will test this routing choice across the three planned cases. The robotics case below is a worked example. Lab 1 identifies senior decision-makers as the primary users. Each case should identify the person authorized to make the specific decision.
+
+## Submission and evidence
+
+[Download the Brightspace submission ZIP](submission/Team-Assignment10.zip) · [Read the stockroom management brief](stockroom-run/management-brief.md) · [Read the team decision](stockroom-run/team-review.md) · [Inspect the seven-run manifest](stockroom-run/manifest.json)
 
 ## Step 1 · Confirm the decision and inventory the experts (0–10 minutes)
 

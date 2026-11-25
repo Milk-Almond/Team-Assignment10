@@ -1,0 +1,91 @@
+{
+  "case_id": "nyu-humanoid-totes-v1",
+  "evidence_cutoff": "2026-11-17",
+  "run_date": "2026-11-24",
+  "runtime": "Codex isolated specialist sessions, sequential, fresh context per expert",
+  "operator": "Codex on user request",
+  "packet_format": "Locally assembled from the Lab 9 frozen common instructions, pinned metadata and specialist instructions, case, dated evidence register and output schema. Headings differ from the course packet builder.",
+  "source_check": "All 14 pinned specialist metadata/instruction Git blob SHAs matched the corresponding files at their source commits.",
+  "validation": "Local recursive check of the frozen output schema constraints and exact pinned agent metadata. The parent reviewed management implications against the supplied dossier.",
+  "human_decision": "Accept",
+  "experts": [
+    {
+      "id": "01_creation",
+      "version": "team-1.0.0",
+      "source": "https://github.com/Milk-Almond/Lab3/tree/42133eef1c180b4280647b70ed57f9d2ec2b2e20/Team-Lab3-Final/agents/creation_agent",
+      "packet_sha256": "0690ecbf0cbc4bf10ff2c01f499893a56489e5ea777381558d74e6233f103123",
+      "response": "01_creation.json",
+      "prompt": "01_creation.prompt.txt",
+      "response_sha256": "0f6e9818fc3328a0478ca6416fb25407de7aec95db855c559d42047e0c71e08a",
+      "structure": "passed",
+      "identity": "matched pinned metadata"
+    },
+    {
+      "id": "02_innovation",
+      "version": "lab4-team-approved-v1.0",
+      "source": "https://github.com/Milk-Almond/Team-Assignment-4/tree/699c8bc9fe3b309df4e5e6908d3ece48ba128256/agents/innovation_classification",
+      "packet_sha256": "dd02b85b467e269a9263eed8a3fa59b48d757219e9e4221f9f1f1d0ec531e71b",
+      "response": "02_innovation.json",
+      "prompt": "02_innovation.prompt.txt",
+      "response_sha256": "1b7172899aa83e1bf789d490d9d37df336c48b35a0a917d81d141dda9cd064a2",
+      "structure": "passed",
+      "identity": "matched pinned metadata"
+    },
+    {
+      "id": "03_promethean",
+      "version": "0.1.3-team",
+      "source": "https://github.com/Milk-Almond/Team-Assignment-5/tree/2f4c1910a4ef6c7d22e2fcbfee018f93aecb10ff/agents/team_promethean",
+      "packet_sha256": "ebc7040447f0b6260ad4cb36d0f66736767d4bb07695f00ccf3314fc9f9db8f2",
+      "response": "03_promethean.json",
+      "prompt": "03_promethean.prompt.txt",
+      "response_sha256": "c597c84fc9ed13b3c12da71995ec63812a5ac3714f22ec07aa781e62eeedf5b2",
+      "structure": "passed",
+      "identity": "matched pinned metadata"
+    },
+    {
+      "id": "04_diffusion",
+      "version": "1.0-team-synthesis",
+      "source": "https://github.com/Milk-Almond/Team-Assignment6/tree/1cb931b0bc432e06b0fe0fdb1873ada0141d648c/agents/diffusion_agent",
+      "packet_sha256": "37b2cd2382c70a4447566d1253fbd38496a15f96e1f907ce927e3c16dfd912b1",
+      "response": "04_diffusion.json",
+      "prompt": "04_diffusion.prompt.txt",
+      "response_sha256": "3dec7caf1937065e8db334ad74d3d3664261c901232d2d691e68b479b9e9f124",
+      "structure": "passed",
+      "identity": "matched pinned metadata"
+    },
+    {
+      "id": "05_adoption",
+      "version": "1.2-team-review",
+      "source": "https://github.com/Milk-Almond/Team-Assignment7/tree/5956c905e1ce7c00ab3a34f673361d021f8dce70/agents/adoption_agent",
+      "packet_sha256": "cca1a2e699d553f48817c694b95a72907ffd9de563d1501f0c5e0b0b5380adb4",
+      "response": "05_adoption.json",
+      "prompt": "05_adoption.prompt.txt",
+      "response_sha256": "bfe0c2221f1b3a223c4667ee089f4188b72c173b8c3872bc02ce558a27600180",
+      "structure": "passed",
+      "identity": "matched pinned metadata"
+    },
+    {
+      "id": "06_organizational",
+      "version": "team-subagent-6-v1.0.0",
+      "source": "https://github.com/Milk-Almond/Team-Lab-8-Organizational-Adoption-Agent/tree/129d42cc5ddcb8555f8ef128b9d60fd565b56bb7/agents/organizational_adoption",
+      "packet_sha256": "63b6ea58a89b5b4fa093930dbeca269a6ce048478fab58e28658b8b1c00a511d",
+      "response": "06_organizational.json",
+      "prompt": "06_organizational.prompt.txt",
+      "response_sha256": "cfdb277049573d9bc76f053f73b44f23a08a8f9731155842a4159ded50372f62",
+      "structure": "passed",
+      "identity": "matched pinned metadata"
+    },
+    {
+      "id": "07_landscape",
+      "version": "lab09-landscape-v1.0.0-rc1",
+      "source": "https://github.com/Milk-Almond/Team-Assignment9/tree/22c74bbaa573a70eb32d04f205552250a6ee1431/agents/landscape",
+      "packet_sha256": "60810f8d50bdfbe427716d61391487b3bf0bd3bc828a0f646330d2c57f62187a",
+      "response": "07_landscape.json",
+      "prompt": "07_landscape.prompt.txt",
+      "response_sha256": "48e529fbb3e1bd5b5b61ca785d1a7475c523f3fe745de21884cac37ddcbe7a75",
+      "structure": "passed",
+      "identity": "matched pinned metadata"
+    }
+  ],
+  "human_review": "team-review.md"
+}
